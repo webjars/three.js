@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -12,7 +10,7 @@
 
     <groupId>org.webjars</groupId>
     <artifactId>three.js</artifactId>
-    <version>r66</version>
+    <version>r67-SNAPSHOT</version>
 
     <name>three.js</name>
     <description>WebJar for three.js</description>
@@ -43,7 +41,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>${version}</upstream.version>
+        <upstream.version>r66</upstream.version>
         <upstream.url>https://raw.github.com/mrdoob/three.js/${upstream.version}</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}
         </destDir>
@@ -101,11 +99,5 @@
                 </configuration>
             </plugin>
         </plugins>
-        <resources>
-            <resource>
-                <directory>${project.basedir}/src/main/resources</directory>
-                <targetPath>${destDir}</targetPath>
-            </resource>
-        </resources>
     </build>
 </project>
