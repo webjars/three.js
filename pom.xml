@@ -41,7 +41,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>r70</upstream.version>
+        <upstream.version>r71</upstream.version>
         <upstream.url>https://raw.github.com/mrdoob/three.js/${upstream.version}</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}
         </destDir>
