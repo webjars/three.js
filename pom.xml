@@ -10,7 +10,7 @@
 
     <groupId>org.webjars</groupId>
     <artifactId>three.js</artifactId>
-    <version>r78-SNAPSHOT</version>
+    <version>r88</version>
 
     <name>three.js</name>
     <description>WebJar for three.js</description>
@@ -41,7 +41,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>r77</upstream.version>
+        <upstream.version>r88</upstream.version>
         <upstream.url>https://raw.github.com/mrdoob/three.js/${upstream.version}</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}
         </destDir>
