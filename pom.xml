@@ -10,7 +10,7 @@
 
     <groupId>org.webjars</groupId>
     <artifactId>three.js</artifactId>
-    <version>r119-SNAPSHOT</version>
+    <version>r118-1-SNAPSHOT</version>
 
     <name>three.js</name>
     <description>WebJar for three.js</description>
@@ -87,6 +87,18 @@
                         <configuration>
                             <url>${upstream.url}/build</url>
                             <fromFile>three.min.js</fromFile>
+                            <toDir>${destDir}</toDir>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>download-module-js</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>download-single</goal>
+                        </goals>
+                        <configuration>
+                            <url>${upstream.url}/build</url>
+                            <fromFile>three.module.js</fromFile>
                             <toDir>${destDir}</toDir>
                         </configuration>
                     </execution>
