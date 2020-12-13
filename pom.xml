@@ -10,7 +10,7 @@
 
     <groupId>org.webjars</groupId>
     <artifactId>three.js</artifactId>
-    <version>r119-SNAPSHOT</version>
+    <version>r123-SNAPSHOT</version>
 
     <name>three.js</name>
     <description>WebJar for three.js</description>
