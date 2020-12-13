@@ -10,7 +10,7 @@
 
     <groupId>org.webjars</groupId>
     <artifactId>three.js</artifactId>
-    <version>r123-SNAPSHOT</version>
+    <version>r123</version>
 
     <name>three.js</name>
     <description>WebJar for three.js</description>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/three.js</url>
         <connection>scm:git:https://github.com/webjars/three.js.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/three.js.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>three.js-r123</tag>
     </scm>
 
     <properties>
